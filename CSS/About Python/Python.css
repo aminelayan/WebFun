@@ -1,0 +1,32 @@
+.page {
+  width: 970px;
+}
+.text {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -70px;
+  margin-right: 10px;
+  border: 1px solid #E2C23B;
+
+}
+img {
+  height: 100px;
+  margin-top: -40px;
+}
+.container1 {
+  background-color: #235076;
+  height: 580px;
+}
+.size{
+  color: #E2C23B;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+.textsize{
+  margin-top: 10px;
+}
