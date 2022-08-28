@@ -149,6 +149,7 @@ font-family: sans-serif;
   display: flex;
   flex-direction: column  ;
   border-top: 5px solid #457DAD;
+  height: 195px;
 }
 .p{
   margin: 10px;
@@ -167,7 +168,7 @@ a.beginn{
 .fa-square:before {
   content: "\f0c8";
   color: black;
-  margin-right: 5px;
+  margin-right: 15px;
   font-size: 8px ;
 }
 .footer{
@@ -185,4 +186,12 @@ p.copy{
 }
 a.foot{
   color: #457DAD;
+}
+.getting>ul{
+  text-align: justify;
+  margin:0 auto;
+}
+.p>ul{
+  text-align: justify;
+  margin:0 auto;
 }
