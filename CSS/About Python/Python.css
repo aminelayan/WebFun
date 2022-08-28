@@ -14,6 +14,7 @@ text-decoration: none ;
   width: 970px;
   height: 895px;
   background-color: #235076 ;
+  margin: auto  ;
 }
 .navbar{
   width: 820px;
@@ -25,6 +26,10 @@ text-decoration: none ;
   margin: 0 auto;
   text-align: center;
   align-items: center;
+}
+ul.navbar :hover{
+  background-color: #BFAC45;
+
 }
 .search{
   display: flex;
