@@ -5,6 +5,12 @@ for(let i=0; i<list.length; i++){
 	});
 }
 
+let lis = document.getElementsByClassName("myVid")
+for(let i=0; i<lis.length; i++){
+	lis[i].addEventListener("mouseout", function() {
+		this.pause();
+	});
+}
 
 // }
 // console.log(list)
