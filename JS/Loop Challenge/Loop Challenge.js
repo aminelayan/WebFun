@@ -1,6 +1,8 @@
 //Decreasing Multiples of 3
 for(let i=100;i>=0;i-=3){
+    if(x%%3==0){
     console.log(i)
+    }
 }
 //Print the sequence
 for(let i=4;i>= -3.5;i-=1.5){
