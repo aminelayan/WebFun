@@ -1,31 +1,20 @@
-document.getElementById("myVid").addEventListener("mouseover", function() {
-	this.play();
-});
+let list = document.getElementsByClassName("myVid")
+for(let i=0; i<list.length; i++){
+	list[i].addEventListener("mouseover", function() {
+		this.play();
+	});
+}
 
-document.getElementById("myVid").addEventListener("mouseleave", function() {
-	this.pause();
-});
 
-document.getElementById("myVid1").addEventListener("mouseover", function() {
-	this.play();
-});
+// }
+// console.log(list)
+// list = Array.from(list)
 
-document.getElementById("myVid1").addEventListener("mouseleave", function() {
-	this.pause();
-});
-
-document.getElementById("myVid2").addEventListener("mouseover", function() {
-	this.play();
-});
-
-document.getElementById("myVid2").addEventListener("mouseleave", function() {
-	this.pause();
-});
-
-document.getElementById("myVid3").addEventListener("mouseover", function() {
-	this.play();
-});
-
-document.getElementById("myVid3").addEventListener("mouseleave", function() {
-this.pause();
-});
+// list.forEach(element => {
+// 	// console.log(element)
+// 	element.addEventListener("mouseover", function () {
+// 		console.log(this)
+// 			this.play();
+// 		}
+// 	)
+// });
