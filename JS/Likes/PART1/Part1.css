@@ -4,7 +4,7 @@
 }
 main{
     display: flex;
-    width: 40%;
+    width: 330px;
     justify-content: space-around;
     border: 2px solid black;
     flex-direction: column;
