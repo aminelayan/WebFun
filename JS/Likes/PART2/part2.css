@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 700px;
+    margin: auto;
+    height: max-content;
+}
+header{background-color: black;}
+
+header>h1{color: white;
+margin: 10px;}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+}
+img{
+width: 60px;
+margin: 10px;
+}
+.profile{
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 150px;
+    align-items: center;
+    margin: 20px;
+}
+.profile>a{margin: 10px ;}
+.profile>p{margin: 10px;}
+main{display: flex;}
+.middlebox{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+.neil,.nichole,.jim{
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    flex-direction: column;
+    margin: 15px;
+    height: 150px;
+    width: 350px;
+    padding-left: 10px  ;
+}
+.like{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 300px;
+    margin-right: 10px;
+}
+.like>button{
+    background-color: #FFD866;
+    border: 2px black solid;
+    box-shadow: 2px 2px;
+    width: 40px;
+}
+.like>p{
+    size: 18px;
+    margin-left: 5px;
+    font-weight: bold;
+}
