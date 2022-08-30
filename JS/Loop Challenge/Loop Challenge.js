@@ -1,6 +1,6 @@
 //Decreasing Multiples of 3
-for(let i=100;i>=0;i-=3){
-    if(x%%3==0){
+for(let i=100;i>=0;i--){
+    if(i%3==0){
     console.log(i)
     }
 }
@@ -31,6 +31,7 @@ factorial()
 
 //Print odds 1-20
 for(i=1;i<=20;i++){
-    if(i%3==0)
+    if(i%2!=0)
     console.log(i)
 }
+

@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#333333 ;
+}
+header>ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin-right: 100px;
+    align-items: center;
+}
+header>h1{
+    margin-left: 50px;
+    color: white;
+}
+header>ul>li>a{
+    color: white;
+    text-decoration: none;
+}
+#mypro{
+    font-weight: bolder;
+}
+header>ul>li>button{
+    background-color: #14A2B8;
+    box-shadow: black 2px 2px;
+    border: 2px solid black;
+    padding:0px 5px;
+}
+.jane{
+    border: 3px solid #C1C1C1;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    padding-left: 10px;
+    margin: 20px;
+    background-image:linear-gradient(to top, white 72% ,#14A2B8 15%)
+}
+.jane>h2{
+    font-size: xx-large;
+}
+.edit>a{text-decoration: underline;
+color: #14A2B8;}
+
+#propic{
+    width: 90px;
+    height: 90px;
+    border: 4px solid #C1C1C1;
+    border-radius: 50%;
+}
+
+#mapm{
+height: 35px;
+width: 27px; 
+margin-right: 10px;   
+}
+#gear{
+height: 27px;
+width: 27px;
+margin-right: 10px;
+}
+.jane>ul{
+    display: flex;
+    align-items: center;
+}
+.edu{
+    border: 3px solid #C1C1C1;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    padding-left: 10px;
+    margin: 20px;
+    background-image:linear-gradient(to top, white 72% , #333333 15%)
+}
+.edu>div>h1{color: white;}
+.side{
+margin:20px;
+border: #C1C1C1 2px solid;
+height: 150px;
+width: 300px;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    background-color: #333333;
+    justify-content: space-evenly;
+}
+.head>h3{
+margin-right: 5px;
+border: 5px solid #C1C1C1;
+border-radius: 30px;
+background-color: #C1C1C1;
+}
+h3,h4{
+    color: white;
+}
+.todd{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+.yourc>p{
+    margin: 10px;
+}
+.yourc{
+    margin: 20px;
+    border: #C1C1C1 2px solid;
+    height: 220px;
+    width: 300px;
+}
+#view{
+    border-top: #C1C1C1 2px solid ;
+    padding: 10px;
+}
+.coding,.prop{
+    font-weight: bolder;
+}
+.date{
+    color: #C1C1C1;
+}
+#view>a{
+    color: #14A2B8;
+}
