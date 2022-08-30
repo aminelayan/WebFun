@@ -1,6 +1,6 @@
 var count1=9;
 var count2=12;
-var count3=5;
+var count3=9;
 
 
 function add(id ,caseID) {
