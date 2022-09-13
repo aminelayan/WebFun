@@ -18,13 +18,12 @@ function press(x){
 }
 
 function calculate(){
-    // if (op==='amin'){
-    //     skip()
-    // }
+    if (op==='amin'){
+        skip()
+    }
     console.log("num="+num )
     console.log("temp"+temp)
     switch(op){
-
         case '*': sum=num*temp; break;
         case '-': sum=num-temp; break;
         case '+': sum=num+temp; break;

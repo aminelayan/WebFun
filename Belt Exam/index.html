@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belt</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- advertisment -->
+    <div class="ad">
+    <h2> FREE PHONE GRIP ON SELECT PURCHASES </h2>
+    </div>
+    <header>
+        <h1>PlushStar</h1>
+        <input type="search" placeholder="Search">
+        <div>
+            <p id="buy">0</p>   
+            <img src="/images/cart-dark.png" alt="">
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">New</a></li>
+            <li ><a id="products" href="#">Products</a></li>
+            <li> <a href="#">Sales</a></li>
+            <li> <a href="#">Blog</a></li>
+            <li> <a onclick="alerting()" href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Plushy Store</h1>
+        <!-- select for the select input and options -->
+        <div class="select">
+            <p>62 Products, sorted by <span id="best">Best Selling</span></p>
+                <div>
+                    <label for="sortby">Sort By</label>
+                    <select onchange="sortby()" name="sortyby" id="sortby">
+                    <option value="Best Selling">Best Selling</option>
+                    <option value="Price">Price</option>
+                    <option value="High To Low">High To Low</option>
+            </select>
+                </div>
+        </div>
+        <div class="allproduct">
+            <div class="product1">
+                <img src="/images/s-l500.jpeg" alt="">
+                <p>Mischief Mouse</p>
+                <button onclick="addtocart()">Buy</button>
+            </div>
+            <div class="product1">
+                <img src="/images/81ac1edb87bfd15af76339dfa8c7f8bfefb6.jpeg" alt="">
+                <p>Shy Shrew</p>
+                <button onclick="addtocart()">Buy</button>
+            </div>
+            <div class="product1">
+                <img src="/images/41U5ASGQEFL.jpeg" alt="">
+                <p>Hangry Hamster</p>
+                <button onclick="addtocart()">Buy</button>
+            </div>
+            <div class="product1">
+                <img src="/images/e1468b50-d445-447f-a519-ab0853348254.d21847fbbd4d64c45c2a0699312c369d.jpeg" alt="">
+                <p>Chilly Chinchilla</p>
+                <button onclick="addtocart()">Buy</button>
+            </div>
+        </div>
+</main>
+<script src="belt.js"></script>
+</body>
+</html>

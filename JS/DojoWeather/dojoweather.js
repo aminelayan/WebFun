@@ -22,7 +22,7 @@ function c2f(x){
 }
 
 function alerting(){
-    alert("loading weather report")
+    alert("you choosed °F")
 }
 
 function remove(){
@@ -33,7 +33,7 @@ function remove(){
 
 function showData(){
     var e = document.getElementById("temp");
-    var text = e.options[e.selectedIndex].text;
+    var text = e.value
 
     if(text =="°F"){
         console.log("F");
@@ -45,7 +45,6 @@ function showData(){
         document.getElementById("low").innerText=(c2f(low_val)+'°F')
         document.getElementById("low2").innerText=(c2f(low2_val)+'°F')
         document.getElementById("low3").innerText=(c2f(low3_val)+'°F')
-
     }
     else {
         console.log("C");
@@ -60,3 +59,4 @@ function showData(){
     }
 }
 
+document.getElementsByClassName()
